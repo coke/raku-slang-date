@@ -13,10 +13,10 @@
   },
   "description" : "Slang adding date literals to source",
   "license" : "Artistic-2.0",
-  "name" : "Slang:Date",
+  "name" : "Slang::Date",
   "perl" : "6",
   "resources" : [ ],
   "source-url" : "git://github.com/coke/raku-slang-date.git",
   "tags" : [ ],
-  "version" : "0.1.0"
+  "version" : "0.1.1"
 }
