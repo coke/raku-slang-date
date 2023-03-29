@@ -1,22 +1,26 @@
 {
-  "authors" : [
+  "auth": "zef:coke",
+  "authors": [
     "Will Coleda"
   ],
-  "auth": "zef:coke",
-  "depends" : [
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Slang adding date literals to source",
+  "license": "Artistic-2.0",
+  "name": "Slang::Date",
+  "perl": "6",
+  "provides": {
+    "Slang::Date": "lib/Slang/Date.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "git://github.com/coke/raku-slang-date.git",
+  "tags": [
   ],
   "test-depends": [
     "Test"
   ],
-  "provides" : {
-    "Slang::Date" : "lib/Slang/Date.rakumod"
-  },
-  "description" : "Slang adding date literals to source",
-  "license" : "Artistic-2.0",
-  "name" : "Slang::Date",
-  "perl" : "6",
-  "resources" : [ ],
-  "source-url" : "git://github.com/coke/raku-slang-date.git",
-  "tags" : [ ],
-  "version" : "0.1.2"
+  "version": "0.1.2"
 }
