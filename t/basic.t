@@ -9,16 +9,12 @@ my $date = 2023-01-13;
 
 is $date, Date.new(2023,1,13), "Friday the 13th";
 
-try {
-    my $bad = 2023-01-99;
+{
+    "use Slang::Date; 2023-01-99".EVAL;
     CATCH {
-       when  X::OutOfRange {
-           ok True, "Invalid date caught";
-           exit;
-       }
-       default {
-           nok "Invalid date wrong error";
-       }
+       is .message, 'Day out of range. Is: 99, should be in 1..31',
+         'invalid date caught';
+       exit
     }
 }
-nok "Invalid date not caught";
+flunk "Invalid date not caught";
