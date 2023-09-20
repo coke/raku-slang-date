@@ -1,4 +1,6 @@
 Revision history for Slang::Date
 
 {{$NEXT}}
-    - Adpot mi6
+    - bump to raku 6.d
+    - Streamline date checks/creation (lizmat++)
+    - Adopt mi6
