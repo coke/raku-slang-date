@@ -1,6 +1,8 @@
 Revision history for Slang::Date
 
 {{$NEXT}}
+
+0.1.3  2023-09-20T13:55:52-04:00
     - bump to raku 6.d
     - Streamline date checks/creation (lizmat++)
     - Adopt mi6
