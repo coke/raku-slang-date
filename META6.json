@@ -10,7 +10,7 @@
   "description": "Slang adding date literals to source",
   "license": "Artistic-2.0",
   "name": "Slang::Date",
-  "perl": "6",
+  "perl": "6.d",
   "provides": {
     "Slang::Date": "lib/Slang/Date.rakumod"
   },
