@@ -6,6 +6,7 @@
   "build-depends": [
   ],
   "depends": [
+    "Slangify:ver<0.0.1+>:auth<zef:lizmat>"
   ],
   "description": "Slang adding date literals to source",
   "license": "Artistic-2.0",
