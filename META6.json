@@ -17,11 +17,11 @@
   },
   "resources": [
   ],
-  "source-url": "git://github.com/coke/raku-slang-date.git",
+  "source-url": "https://github.com/coke/raku-slang-date.git",
   "tags": [
   ],
   "test-depends": [
     "Test"
   ],
-  "version": "0.1.3"
+  "version": "0.1.4"
 }
